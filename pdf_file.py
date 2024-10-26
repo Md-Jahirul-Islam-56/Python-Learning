@@ -4,7 +4,7 @@ import PyPDF2
 
 # Open the PDF file in binary mode:
 
-# with open('Lecture 1_Semiconductor-converted.pdf', 'rb') as pdf_file:
+# with open('L.pdf', 'rb') as pdf_file:
 #     # Create a PDF reader object
 #     pdf_reader = PyPDF2.PdfReader(pdf_file)
     
@@ -44,7 +44,7 @@ import PyPDF2
 #     merger.append(pdf_file6)
 
 # # Write the output to a new file
-# with open("bejal.pdf", "wb") as merged_file:
+# with open("bl.pdf", "wb") as merged_file:
 #     merger.write(merged_file)
 
 # merger.close() #The merger object is different from regular file objects that are automatically closed when exiting a with block. So we should close it.
